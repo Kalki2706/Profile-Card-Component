@@ -7,6 +7,7 @@
 body {
   overflow: hidden;
   background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .top-svg {
@@ -34,8 +35,8 @@ body {
 }
 
 .usr-info {
-  padding: 0 30px 25px;
-  margin-top: 75px;
+  padding: 0 30px 0px;
+  margin-top: 70px;
 }
 
 .position-imgs {
@@ -43,9 +44,10 @@ body {
   position: relative;
 }
 
-.bg-svg-div {
+.bg-svg {
   /* margin-top: 50px; */
-  align-self: start;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .usr-profile {
@@ -63,22 +65,61 @@ body {
   border-radius: 150px;
 }
 
+hr {
+  margin-bottom: 28px;
+  border: none;
+  border: 0.1px solid #969696;
+}
+
+.react-div {
+  margin-top: 0;
+  padding-bottom: 28px;
+}
+
 .name-age {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2d3248;
 }
 
 .age {
-  font-size: 21px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.city {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6a6f81;
 }
 
 .reactions {
   display: flex;
   justify-content: space-between;
+}
+
+.insight {
+  line-height: 1.4;
+}
+
+.numbers {
+  font-weight: 700;
+  text-align: center;
+  color: #2d3248;
+}
+
+.react {
+  color: #6a6f81;
+  text-align: center;
 }
